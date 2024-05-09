@@ -267,10 +267,6 @@ const styles = StyleSheet.create({
     alignItems: "center",
     zIndex: 999,
   },
-  buttonText: {
-    fontSize: 30,
-    color: "white",
-  },
   emptyListComponent: {
     flex: 1,
     justifyContent: "center",
