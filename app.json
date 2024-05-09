@@ -1,7 +1,20 @@
 {
   "expo": {
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ],
     "name": "DesignCircleTask",
     "slug": "DesignCircleTask",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "extra": {
+      "eas": {
+        "projectId": "c43eaca7-a2b3-4ba1-b211-1288dc4c8a61"
+      }
+    }
   }
 }
